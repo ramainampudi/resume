@@ -239,3 +239,12 @@ footer {
     max-width: 50ch;
   }
 }
+
+@media screen and (min-width: 700px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+  h4 {
+    font-size: 1.8rem;
+  }
+}
