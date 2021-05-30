@@ -215,6 +215,28 @@ footer {
   align-items: center;
 }
 
+.btn a:link,
+.btn a:visited {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #6096c0;
+}
+
+.btn {
+  padding: 1rem;
+  background-color: white;
+  border: 2px solid #abc1f8;
+}
+
+.btn:hover {
+  border: 2px solid #6096c0;
+}
+
+.btn:hover a {
+  color: #09477a;
+}
+
 @media screen and (max-width: 767px) {
   header,
   .detail-section {
